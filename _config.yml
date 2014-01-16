@@ -1,0 +1,12 @@
+markdown: rdiscount
+pygments: true
+permalink: /posts/:title
+rdiscount:
+  extensions: [smart]
+
+name: Yoav Zimmerman 
+url: http://yoavz.com
+twitter: yoavzimmerman 
+github: yoavz
+facebook: yoav.zimmerman 
+gravatar_url: http://www.gravatar.com/avatar/224f8deb06a16957848289c33e3ed29e.png 
