@@ -1,0 +1,33 @@
+body {
+  background-color: #f3f3f3;
+  color: #3f3f3f;
+  font-family: ‘Metrophobic’, Arial, serif; 
+  font-weight: 400;
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+body > * {
+	margin: auto;
+	width: 700px;
+	display: block;
+	overflow: auto;
+}
+
+h1 {
+	margin: auto;
+	text-align: center;
+	overflow: auto;
+}
+
+#face {
+   background-image: url('open_real.png');
+   height: 480px;
+   width: 720px;
+   vertical-align: center;
+}
+
+#face:hover {
+   background-image: url('closed_real.png');
+}
