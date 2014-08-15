@@ -8,29 +8,20 @@
  */
 
 body {
-  	background-color: #f2f2f2;
-    font-family: "Lato";
+    font-family: "Cabin", sans-serif;
     font-weight: 300;
     font-size: 16px;
-    color: #555;
     padding-top: 150px;
     
-	background-image: url(../img/ucla-bg.jpg);
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    
-  }
+	background-image: url(../img/use_your_illusion.png);
+	background-repeat: repeat;
+}
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-    font-family: "Raleway";
+    font-family: "Cabin", sans-serif;
     font-weight: 300;
-    color: #333;
+    color: #ffffff;
 }
 
 
@@ -40,130 +31,81 @@ p {
     margin-bottom: 22px;
 }
 
-.centered {
+.w {
     text-align: center;
 }
 
-/* Links */
-a {
-    color: #1abc9c;
-    word-wrap: break-word;
-
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+.centered {
+    margin: 0 auto;
 }
 
-a:hover,
-a:focus {
-    color: #7b7b7b;
-    text-decoration: none;
-    outline: 0;
+/* Avatar */
+
+.circular {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
-a:before,
-a:after {
-    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
-    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
-    transition: color 0.1s ease-in, background 0.1s ease-in;
+.avatar {
+    background: url(http://www.gravatar.com/avatar/224f8deb06a16957848289c33e3ed29e?s=200) no-repeat;
 }
 
- hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+.avatar-back {
+	background-image: url(../img/nickelback.png);
+	background-repeat: repeat;
 }
 
-.w {
-	background-color: #ffffff;
-	border: 1px solid #dddddd;
-	-moz-box-shadow: 5px 5px rgba(0,0,0,0.2);
-	-webkit-box-shadow: 5px 5px rgba(0,0,0,0.2);
-	box-shadow: 5px 5px rgba(0,0,0,0.2);
+.circular img {
+    opacity: 0;
+    filter: alpha(opacity=0);
 }
 
+/* CSS Flip! */
 
-.col-md-4 {
-	padding-left: 0px;
-	padding-right: 0px;
+/* entire container, keeps perspective */
+.flip-container {
+    perspective: 1000;
+}
+    /* flip the pane when hovered */
+    .flip-container:hover .flipper, .flip-container.hover .flipper {
+        transform: rotateY(180deg);
+    }
+
+.flip-container, .front, .back {
+    width: 200px;
+    height: 200px;
 }
 
-.col-md-8 {
-	padding-left: 0px;
-	padding-right: 0px;
+/* flip speed goes here */
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+
+    position: relative;
 }
 
+/* hide back of pane during swap */
+.front, .back {
+    backface-visibility: hidden;
 
-.nav-tabs {
-	border-bottom: 1px solid #dddddd;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
-	color: #555555;
-	cursor: default;
-	background-color: #ffffff;
-	border-left: 5px solid #1abc9c;
-	border-bottom-color: transparent;
-	border-top-color: transparent;
-	border-right-color: transparent;
-	width: 100%;
+/* front pane, placed above back */
+.front {
+    z-index: 2;
 }
 
-.nav-tabs > li > a {
-	margin-right: 2px;
-	line-height: 1.428571429;
-	border-bottom: 1px solid #dddddd;
-	border-radius: 0 0 0 0;
-	width: 100%;
-	background-color: #f2f2f2;
+/* back, initially hidden pane */
+.back {
+    transform: rotateY(180deg);
 }
 
-.tab-content {
-	background-color: #ffffff;
-	padding-left: 15px;
-	padding-top: 20px;
-	padding-right: 15px;
-}
-
-.tab-content h5 {
-	color: #bdc3c7;
-	font-weight: 700;
-	letter-spacing: 1px;
-}
-
-.red i {
-	font-size: 12px;
-	color: #e74c3c;
-}
-
-i {
-	vertical-align: middle;
-}
-
-.sm {
-	font-size: 14px;
-}
-
-.big-icons {
-	font-size: 40px;
-}
-
-a h6{
-	color: #1abc9c;
-}
-
-a h6:hover {
-	color: #7b7b7b;
-}
-
-grey {
-	color: #bdc3c7;
-	font-weight: 700;
-}
