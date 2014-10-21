@@ -74,16 +74,16 @@ body {
     text-shadow: -5px 0 black, 0 5px black, 5px 0 black, 0 -5px black;
 }
 
-#now-playing {
+.name p {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-size: 15px;
 }
 
-#now-playing a {
+.name p a {
     color: black;
 }
 
-#now-playing a:hover {
+.name p a:hover {
     color: gray;
 }
