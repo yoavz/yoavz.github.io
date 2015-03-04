@@ -48,12 +48,12 @@ $(function() {
     // TODO: integrate this into iphone GPS?
 
     // Sweden 
-    var longitude = "13.2000";
-    var latitude = "55.7000";
+    // var longitude = "13.2000";
+    // var latitude = "55.7000";
 
     // SF
-    // var longitude = "-122.4167";
-    // var latitude = "37.7833";
+    var longitude = "-118.2500";
+    var latitude = "34.0500";
 
     loadMap(longitude, latitude);
     // insertCoords(longitude, latitude);

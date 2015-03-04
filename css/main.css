@@ -7,9 +7,10 @@
 body {
     padding-top: 100px;
     
-    background-repeat: no-repeat;
-    background-position: center; 
-    background-attachment: fixed;
+    background: url(../img/woven.png);
+    /* background-repeat: no-repeat; */
+    /* background-position: center;  */
+    /* background-attachment: fixed; */
 }
 
 
@@ -60,7 +61,7 @@ body {
 /* Name */
 
 .name {
-    padding: 10px 0px 0px 0px ;
+    padding: 10px 0px ;
     text-align: center;
 }
 
@@ -78,6 +79,8 @@ body {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-size: 15px;
+    padding-top: 10px;
+    margin-bottom: 0px;
 }
 
 .name p a {
