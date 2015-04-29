@@ -1,0 +1,3 @@
+[submodule "potd"]
+	path = potd
+	url = https://github.com/yoavz/potd
