@@ -26,14 +26,17 @@ body {
 .circular {
     width: 200px;
     height: 200px;
+
     border-radius: 100px;
     -webkit-border-radius: 100px;
     -moz-border-radius: 100px;
-    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+
+    box-shadow: 0px 0px 25px yellow;
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 
     background: url(http://www.gravatar.com/avatar/224f8deb06a16957848289c33e3ed29e?s=200) no-repeat;
+
 }
 
 .circular img {
