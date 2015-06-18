@@ -6,10 +6,14 @@
 
 body {
     padding-top: 100px;
-    
-    /* background-repeat: no-repeat; */
-    /* background-position: center;  */
-    /* background-attachment: fixed; */
+
+    /* https://css-tricks.com/perfect-full-page-background-image/ */
+    /* thank you, css-tricks. why is css so hard? */
+    background: url(../img/V35BBN0.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 
@@ -30,7 +34,6 @@ body {
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 
     background: url(http://www.gravatar.com/avatar/224f8deb06a16957848289c33e3ed29e?s=200) no-repeat;
-    
 }
 
 .circular img {

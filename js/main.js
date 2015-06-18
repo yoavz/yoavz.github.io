@@ -52,10 +52,10 @@ $(function() {
     // var latitude = "55.7000";
 
     // SF
-    var longitude = "-118.2500";
-    var latitude = "34.0500";
+    // var longitude = "-118.2500";
+    // var latitude = "34.0500";
 
-    loadMap(longitude, latitude);
+    // loadMap(longitude, latitude);
     // insertCoords(longitude, latitude);
     getRecentTrack();
 });
