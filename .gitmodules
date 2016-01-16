@@ -1,3 +1,6 @@
 [submodule "potd"]
 	path = potd
 	url = https://github.com/yoavz/potd
+[submodule "control_dashboard"]
+	path = control_dashboard
+	url = https://github.com/yoavz/control_dashboard.git
