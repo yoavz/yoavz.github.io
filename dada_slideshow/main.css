@@ -1,0 +1,14 @@
+#slideshow {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+  position: relative; /* not required, slideshow will set this for you */
+}
+
+#slideshow > * {
+  position: absolute; /* required for most transitions */
+  top: 0;             /* ditto */
+  left: 0;            /* ditto */
+  width: 100%;        /* usually required */
+  height: 100%;       /* same */
+}
