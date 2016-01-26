@@ -4,3 +4,6 @@
 [submodule "control_dashboard"]
 	path = control_dashboard
 	url = https://github.com/yoavz/control_dashboard.git
+[submodule "tritonal-microsite"]
+	path = tritonal-microsite
+	url = https://github.com/yoavz/tritonal-microsite.git
