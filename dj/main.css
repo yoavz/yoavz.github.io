@@ -2,7 +2,7 @@ body {
   overflow: hidden;
   padding: 0;
   margin: 0;
-  background: url("static/background.png") center fixed;
+  background: url("static/bigger_background.png") no-repeat center fixed;
 }
 
 p {
@@ -91,7 +91,7 @@ canvas {
 .letter {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
-    font-size: 40px;
+    font-size: 55px;
     color: #ffffff;
     
     /* trippy effect discovered by accident */
@@ -99,6 +99,14 @@ canvas {
 }
 
 .name p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+}
+
+.links p {
     font-family: "Montserrat", sans-serif;
     font-weight: 300;
     font-size: 15px;
