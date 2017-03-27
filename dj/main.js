@@ -38,7 +38,7 @@ function getRecentTrack() {
             var artistName = track.artist["#text"];
             var icon = "<i class=\"fa fa-music\"></i>"
 
-            var innerHTML = "Now playing " + icon + " : " + link + artistName + " - " + trackName + "</a>" ;
+            var innerHTML = link + artistName + " - " + trackName + "</a>" ;
             $(" #now-playing ").html(innerHTML);
         }
     );
