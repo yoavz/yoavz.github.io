@@ -2,7 +2,7 @@ body {
   overflow: hidden;
   padding: 0;
   margin: 0;
-  background: url("static/bigger_background.png") no-repeat center fixed;
+  background: black;
 }
 
 p {
@@ -15,7 +15,7 @@ canvas {
   pointer-events: none;
   position: absolute;
   display: block;
-  z-index: 1;
+  z-index: -1;
 }
 
 .container {
@@ -64,22 +64,22 @@ canvas {
 
 /* Links */
 
-.links {
+.link {
+    font-family: "Inconsolata", sans-serif;
     text-align: center;
-    padding: 0px 0px;
+    padding: 5px 0px;
 }
 
-.links a {
+.link a {
     color: white;
+    text-decoration: none;
 }
 
-.links i {
-    padding: 0px 10px; 
-}
-
-.links i:hover {
+.link a:hover {
     color: gray;
+    text-decoration: none;
 }
+
 
 /* Name */
 
@@ -112,22 +112,5 @@ canvas {
          1px -1px 0 #000,
         -1px  1px 0 #000,
          1px  1px 0 #000;
-}
-
-.name p a {
-    text-decoration: none;
-    color: #ffffff;
-}
-
-.name p a:hover {
-    color: gray;
-}
-
-.links p {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    padding-top: 10px;
-    margin-bottom: 0px;
 }
 

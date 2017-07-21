@@ -15,10 +15,9 @@ window.onload = function(){
         "donut": "emojis/Emoji_Objects/Emoji_Objects-202.png",
     };
     var emoji_list = Object.keys(emoji_map).map(key => emoji_map[key]);
-    console.log(emoji_list);
 
-    var emoji_height = 50;
-    var emoji_width = 50;
+    var emoji_height = 30;
+    var emoji_width = 30;
     var emoji_path = emoji_list[Math.floor(Math.random()*emoji_list.length)];
     var num_horizontal = 8;
     var num_vertical = 6; 
