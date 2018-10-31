@@ -1,6 +1,6 @@
 /*
  * Author: Yoav Zimmerman
- * URL: yoavz.com 
+ * URL: yoavz.com
  *
  */
 
@@ -35,7 +35,7 @@ body {
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 
-    background: url(http://www.gravatar.com/avatar/224f8deb06a16957848289c33e3ed29e?s=200) no-repeat;
+    background: url(../img/yoav.jpg) no-repeat;
 
 }
 
@@ -56,7 +56,7 @@ body {
 }
 
 .links i {
-    padding: 0px 10px; 
+    padding: 0px 10px;
 }
 
 .links i:hover {
@@ -75,7 +75,7 @@ body {
     font-weight: 300;
     font-size: 40px;
     color: #ffffff;
-    
+
     /* trippy effect discovered by accident */
     text-shadow: -5px 0 black, 0 5px black, 5px 0 black, 0 -5px black;
 }
