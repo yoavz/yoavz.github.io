@@ -5,93 +5,91 @@
  */
 
 body {
-    padding-top: 100px;
+  padding-top: 100px;
 
-    /* https://css-tricks.com/perfect-full-page-background-image/ */
-    /* thank you, css-tricks. why is css so hard? */
-    background: url(../img/V35BBN0.png) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+  /* https://css-tricks.com/perfect-full-page-background-image/ */
+  /* thank you, css-tricks. why is css so hard? */
+  background: url(../img/V35BBN0.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-
 .centered {
-    margin: 0 auto;
+  margin: 0 auto;
 }
 
 /* Avatar */
 
 .circular {
-    width: 200px;
-    height: 200px;
+  width: 200px;
+  height: 200px;
 
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
 
-    box-shadow: 0px 0px 25px yellow;
-    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-    -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  box-shadow: 0px 0px 25px yellow;
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, 0.8);
 
-    background: url(../img/yoav-in-france.jpg) no-repeat;
-
+  background: url(../img/yoavz.jpg) no-repeat;
 }
 
 .circular img {
-    opacity: 0;
-    filter: alpha(opacity=0);
+  opacity: 0;
+  filter: alpha(opacity=0);
 }
 
 /* Links */
 
 .links {
-    text-align: center;
-    padding: 5px 0px;
+  text-align: center;
+  padding: 5px 0px;
 }
 
 .links a {
-    color: inherit;
+  color: inherit;
 }
 
 .links i {
-    padding: 0px 10px;
+  padding: 0px 10px;
 }
 
 .links i:hover {
-    color: gray;
+  color: gray;
 }
 
 /* Name */
 
 .name {
-    padding: 10px 0px ;
-    text-align: center;
+  padding: 10px 0px;
+  text-align: center;
 }
 
 .letter {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    font-size: 40px;
-    color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 40px;
+  color: #ffffff;
 
-    /* trippy effect discovered by accident */
-    text-shadow: -5px 0 black, 0 5px black, 5px 0 black, 0 -5px black;
+  /* trippy effect discovered by accident */
+  text-shadow: -5px 0 black, 0 5px black, 5px 0 black, 0 -5px black;
 }
 
 .name p {
-    font-family: "Montserrat", sans-serif;
-    font-weight: 300;
-    font-size: 15px;
-    padding-top: 10px;
-    margin-bottom: 0px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 15px;
+  padding-top: 10px;
+  margin-bottom: 0px;
 }
 
 .name p a {
-    color: black;
+  color: black;
 }
 
 .name p a:hover {
-    color: gray;
+  color: gray;
 }
